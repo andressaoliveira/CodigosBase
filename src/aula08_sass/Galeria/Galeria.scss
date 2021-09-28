@@ -1,0 +1,53 @@
+@import "./Base.scss";
+
+#galeria {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    #titulo {
+        height: 10%;
+        justify-content: center;
+    }
+    #container {
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+
+        #imagens {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            #sessoes {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+
+            #animais {
+                background-color: $animalClaro;
+            }
+            #pessoas {
+                background-color: $pessoaClaro;
+            }
+            #paisagem {
+                background-color: $paisagemClaro;
+            }
+
+            .sessao {
+                display: flex;
+                flex-direction: column;
+
+                .imagens {
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

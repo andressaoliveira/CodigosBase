@@ -1,0 +1,20 @@
+@import "Style";
+
+.Aula08{
+  width: 100%;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+  //background-color: $cor-padrao;
+  font-family: $fontes;
+
+  .borda {
+    border: 1px solid pink;
+  }
+
+  .App-header {
+    @extend .borda
+  }
+}
