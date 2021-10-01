@@ -27,7 +27,6 @@ export default class Aula10 extends React.Component {
   }
 
   pesquisar(item) {
-    console.log(item)
     const { digimonsOriginal } = this.state;
     const filter = digimonsOriginal.filter(digimon => (digimon.name.toLowerCase()).includes(item.toLowerCase()))
     this.setState({
@@ -37,7 +36,6 @@ export default class Aula10 extends React.Component {
 
   render() {
     const { digimons } = this.state;
-    console.log(digimons)
 
     return (
       <div id="digimons-page">
