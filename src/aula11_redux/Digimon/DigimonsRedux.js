@@ -1,6 +1,6 @@
 import React from 'react';
-import api from '../infra/api';
-import './Aula10.scss'
+import api from '../../service/api';
+//import './Aula10.scss'
 
 export default class Aula10 extends React.Component {
   constructor(props) {
@@ -20,9 +20,16 @@ export default class Aula10 extends React.Component {
   }
 
   setDigimons(dados) {
+    const { setDigimons } = this.props;
+    setDigimons(dados);
+    this.getDigimons();
+  }
+
+  getDigimons() {
+    const { digimons } = this.props;
     this.setState({
-      digimonsOriginal: dados,
-      digimons: dados
+      digimonsOriginal: digimons,
+      digimons: digimons
     })
   }
 
@@ -39,6 +46,9 @@ export default class Aula10 extends React.Component {
 
     return (
       <div id="digimons-page">
+        <button onClick={() => this.getDigimons()}>
+          Buscar!!
+        </button>
         <div>
           Pesquisar: <input onChange={(e) => this.pesquisar(e.target.value)} />
         </div>
