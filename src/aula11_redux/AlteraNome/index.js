@@ -1,6 +1,6 @@
 //Crie um arquivo index.js no seu componente
 import { connect } from 'react-redux';
-import { clickButton } from '../../infra/actions';
+import { clickButton } from '../../redux/actions';
 import AlteraNome from './AlteraNome';
 
 

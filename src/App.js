@@ -1,7 +1,5 @@
 //import './App.css';
 
-import { Aula11 } from "./aula11_redux";
-
 // import Aula01 from "./aula01_elementos/Aula01";
 // import Aula02 from "./aula02_lista-itens/Aula02";
 // import Aula03 from "./aula03_bootstrap/Aula03";
@@ -12,6 +10,7 @@ import { Aula11 } from "./aula11_redux";
 // import Aula08 from "./aula08_sass/Aula08";
 // import Aula09 from "./aula09_consumir-api/Aula09";
 // import Aula10 from "./aula10_consumir-api-axios/Aula10";
+import { Aula11 } from "./aula11_redux";
 
 //  npm i -g create-react-app           instalação
 //  npx create-react-app my-app         criar novo projeto

@@ -1,6 +1,6 @@
 //Crie um arquivo index.js no seu componente
 import { connect } from 'react-redux';
-import { clickButton } from '../infra/actions';
+import { clickButton } from '../redux/actions';
 import Aula11 from './Aula11';
 
 //O método mapStateToProps transforma um trecho do estado da Store
