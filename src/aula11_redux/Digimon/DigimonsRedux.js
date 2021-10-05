@@ -1,6 +1,6 @@
 import React from 'react';
 import api from '../../service/api';
-//import './Aula10.scss'
+import '../../aula10_consumir-api-axios/Aula10.scss'
 
 export default class Aula10 extends React.Component {
   constructor(props) {
@@ -46,9 +46,6 @@ export default class Aula10 extends React.Component {
 
     return (
       <div id="digimons-page">
-        <button onClick={() => this.getDigimons()}>
-          Buscar!!
-        </button>
         <div>
           Pesquisar: <input onChange={(e) => this.pesquisar(e.target.value)} />
         </div>
