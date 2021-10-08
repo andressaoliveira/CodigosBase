@@ -1,4 +1,10 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+
 .App {
+  display: flex;
   text-align: center;
 }
 

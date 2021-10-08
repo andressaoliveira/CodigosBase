@@ -2,7 +2,7 @@ import React from 'react';
 import api from '../../service/api';
 import '../../aula10_consumir-api-axios/Aula10.scss'
 
-export default class Aula10 extends React.Component {
+export default class DigimonsRedux extends React.Component {
   constructor(props) {
     super(props)
     this.state = {

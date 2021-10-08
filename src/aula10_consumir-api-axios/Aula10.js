@@ -1,5 +1,5 @@
 import React from 'react';
-import api from '../infra/api';
+import api from '../service/api';
 import './Aula10.scss'
 
 export default class Aula10 extends React.Component {
