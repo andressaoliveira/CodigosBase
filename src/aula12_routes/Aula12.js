@@ -20,7 +20,7 @@ const Routes = () => {
     <div className="rotas">
       <BrowserRouter>
         <Menu />
-        <Route path="/" exact={true} component={Aula01} />
+        <Route path="/" component={Aula01} />
         <Route path="/Aula01" component={Aula01} />
         <Route path="/Aula02" component={Aula02} />
         <Route path="/Aula03" component={Aula03} />
