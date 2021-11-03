@@ -15,10 +15,10 @@ export default function Aula13() {
     return (
         <div className="Aula13">
             <Contadores />
-            {/* <p>Quantidade de cliques: {count}</p>
+            <p>Quantidade de cliques: {count}</p>
             <button onClick={() => setCount(count + 1)}>
                 Clique aqui
-            </button> */}
+            </button>
         </div>
     );
 }
