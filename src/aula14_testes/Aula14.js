@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Dropdown } from './Dropdown/Dropdown';
 
-export function Aula14() {
+export default function Aula14() {
     const [selectedPokemon, setSelectedPokemon] = useState(null);
 
     return (

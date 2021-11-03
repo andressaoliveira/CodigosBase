@@ -13,7 +13,7 @@ import './App.css';
 // import { Aula11 } from "./aula11_redux";
 // import Aula12 from "./aula12_routes/Aula12";
 // import Aula13 from './aula13_hooks/Aula13';
-import { Aula14 } from './aula14_testes/Aula14';
+import Aula14 from './aula14_testes/Aula14';
 
 //  npm i -g create-react-app           instalação
 //  npx create-react-app my-app         criar novo projeto
