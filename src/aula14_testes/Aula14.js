@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Dropdown } from './Dropdown/Dropdown';
+import Dropdown from './Dropdown/Dropdown';
+import Contador from './Contador/Contador';
 
 export default function Aula14() {
     const [selectedPokemon, setSelectedPokemon] = useState(null);
@@ -12,6 +13,7 @@ export default function Aula14() {
                 options={['Charizard', 'Bulbasaur', 'Eevee', 'Pikachu', 'Mewtwo']}
                 onSelect={setSelectedPokemon}
             />
+            <Contador />
         </div>
     );
 }

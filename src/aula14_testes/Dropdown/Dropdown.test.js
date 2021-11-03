@@ -1,7 +1,7 @@
 import '@testing-library/react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { Dropdown } from './Dropdown'
+import Dropdown from './Dropdown'
 
 const title = "Selecione Pokémon";
 const options = ['Charizard', 'Bulbasaur', 'Pikachu'];
