@@ -23,7 +23,8 @@ describe("Testando componente Dropdown", () => {
         expect(screen.queryByText(options[1])).toBeInTheDocument();
         expect(screen.queryByText(options[2])).toBeInTheDocument();
     });
-    it('Deve ', () => {
+
+    it('Não deve mostrar as opções depois de selecionado', () => {
         const onSelect = jest.fn();
         render(<Dropdown title={title} options={options} onSelect={onSelect} />)
 
